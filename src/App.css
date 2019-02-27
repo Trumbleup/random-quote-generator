@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  background-color: grey;
+  height: 100vh;
+  width:  100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .App-logo {
@@ -30,4 +36,30 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#quoteGenerator {
+  height: 600px;
+  width: 1000px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#quoteProps {
+  font-size: 22px;
+  width: 800px;
+}
+
+#buttons {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.blue {
+  color: lightblue;
 }
